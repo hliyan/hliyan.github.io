@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            'hliyan'
+tagline:          'Personal blog of H. N. Liyanage'
+description:      'Personal blog of H. N. Liyanage'
+url:              http://hliyan.github.io
+baseurl:          /
+
+author:
+  name:           'H. N. Liyanage'
+  url:            https://twitter.com/h_liyan
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/hliyan
