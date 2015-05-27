@@ -1,0 +1,30 @@
+<div class="navbar">
+    <div class="newer-older">
+        {% if page.title == "Home" %}
+            {% if paginator.previous_page %}
+            {% if paginator.page == 2 %}
+              <a class="pagination-item newer" href="{{ site.baseurl }}">«</a>
+            {% else %}
+              <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">«</a>
+            {% endif %}
+            {% else %}
+                <span class="pagination-item newer">«</span>
+            {% endif %}
+        {% endif %}
+    </div>
+
+    <div>
+        <a class="site-title" href="{{ site.baseurl }}">{{ site.title }} &nbsp;&nbsp; &middot; &nbsp;&nbsp; {{ site.tagline }}</a>      
+    </div>    
+
+    <div class="newer-older">
+        {% if page.title == "Home" %}
+          {% if paginator.next_page %}
+            <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">»</a>
+          {% else %}
+            <span class="pagination-item older">»</span>
+          {% endif %}
+        {% endif %}
+    </div>
+</div>
+<div style="height: 3em;"></div>
