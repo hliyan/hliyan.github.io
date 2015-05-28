@@ -38,5 +38,16 @@ echo 'File created successfully.'
 echo
 
 ${EDITOR} ${_post_file}
+
+echo -n 'Post? y/n : '
+read answer
+if [[ "${answer}" == 'n' || "${answer}" == 'N' ]]; then
+    exit 0
+else
+    git add .
+    git commit -m post
+    git push
+fi
+
 exit 0
 ```
