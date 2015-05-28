@@ -39,7 +39,7 @@ a:hover {
   vertical-align: middle;
 }
 
-h1, h1 a {
+h1, h1 a, h2 {
   font-size: 1em;
   display: block;
   color: #555;
@@ -115,12 +115,32 @@ pre {
   border-style: solid;
   border-width: 1px;
   border-color: #eee;
-/*  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #eee;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #eee;*/
+  padding: 1.5em;
+}
+
+.box blockquote {
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-left-color: #eee;
+  padding-left: 20px;
+  text-indent: clear;
+}
+
+.box blockquote p {
+  text-indent: 0px;
+  color: #777;
+}
+
+.box p img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:  1em;
+  margin-bottom: 1em;
+  max-width: 90%; 
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee;
   padding: 1.5em;
 }
 
