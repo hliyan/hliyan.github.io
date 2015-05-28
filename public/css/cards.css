@@ -109,4 +109,7 @@ li {
 code {
   width: 100%;
   font-size: small;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee;
 }
