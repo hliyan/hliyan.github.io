@@ -3,7 +3,7 @@ layout: post
 title: Jekyll post script
 date: 2015-05-28 11:51:18
 ---
-I copied and adapted this simple [script](https://github.com/tlatsas/utils-scripts/blob/master/jekyll-post) by [tlatsas](https://github.com/tlatsas) for creating new Jekyll posts. This post was created using this very script
+I copied and adapted this simple [script](https://github.com/tlatsas/utils-scripts/blob/master/jekyll-post) by [tlatsas](https://github.com/tlatsas) for creating new Jekyll posts. This post was created using this very script.
 
 ~~~ bash
 #!/bin/bash

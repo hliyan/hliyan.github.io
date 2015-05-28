@@ -107,10 +107,19 @@ li {
 }
 
 pre {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   font-size: small;
   border-style: solid;
   border-width: 1px;
   border-color: #eee;
+/*  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #eee;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #eee;*/
+  padding: 1.5em;
 }
 
