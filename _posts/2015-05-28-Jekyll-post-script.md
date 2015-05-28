@@ -5,7 +5,7 @@ date: 2015-05-28 11:51:18
 ---
 I copied and adapted this simple [script](https://github.com/tlatsas/utils-scripts/blob/master/jekyll-post) by [tlatsas](https://github.com/tlatsas) for creating new Jekyll posts. This post was created using this very script
 
-```bash
+~~~ bash
 #!/bin/bash
 
 if [[ -z $1 ]]; then
@@ -50,4 +50,4 @@ else
 fi
 
 exit 0
-```
+~~~
