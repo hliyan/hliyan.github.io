@@ -14,7 +14,7 @@ url:              http://hliyan.github.io
 baseurl:          /
 
 author:
-  name:           'H. N. Liyanage'
+  name:           '@hliyan'
   url:            https://twitter.com/h_liyan
 
 paginate:         10

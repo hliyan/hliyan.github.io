@@ -88,7 +88,8 @@ You have two numbers -- a scrambling key and an unscrambling key. You keep the s
     
 You will be the only person in the world who can do this for any given phrase or number. Anybody else in the world can do the reverse (and only the reverse):
 
-    i3nd93slncek383cekeqnrq + YOUR PUBLIC UNSCRAMBLING KEY —> unscramble —> "I am who I say I am"
+    i3nd93slncek383cekeqnrq + YOUR PUBLIC UNSCRAMBLING KEY —> 
+      unscramble —> "I am who I say I am"
 
 You just verified your identity to someone by showing him a result that only you could produce (because only you have your secret number). He could verify it because he (and everyone else) knows your public number. You never revealed your secret.
 
