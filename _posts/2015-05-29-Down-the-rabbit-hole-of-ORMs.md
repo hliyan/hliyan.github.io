@@ -10,6 +10,8 @@ Then Google spat out this as the *first search result for "ORM"*: [ORM Is an Off
 
 ![ORM Is an Offensive Anti-Pattern](/public/images/2015-05-29-orm.jpg)
 
+<!--break-->
+
 I spent the next hour stumbling from article to article, finally ending up at [Martin Fowler's blog post](http://martinfowler.com/bliki/OrmHate.html) on the subject, which I felt was the most reasonable.
 
 To summarize (if imperfectly) what everyone is saying:
