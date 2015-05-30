@@ -15,7 +15,12 @@
 
     <div>
         <a class="site-title" href="{{ site.baseurl }}">{{ site.title }}</a> <br>
-        <a class="site-subtitle" href="{{ site.baseurl }}about">{{ site.author.name }}</a>  
+        <div class="site-subtitle">
+            <a href="{{ site.baseurl }}about">{{ site.author.name }}</a>  
+            &middot;
+            <a href="{{ site.baseurl }}archives">archives</a>              
+        </div>
+
     </div>    
 
     <div class="newer-older">

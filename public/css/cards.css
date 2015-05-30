@@ -87,6 +87,11 @@ h1, h1 a, h2 {
   text-align: center;
   margin-top: -1em;
   margin-bottom: 0px;
+  font-size: 0.9em;
+}
+
+.site-subtitle a {
+  color: #555;
 }
 
 .newer-older {
