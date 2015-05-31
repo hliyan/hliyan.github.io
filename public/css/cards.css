@@ -45,13 +45,20 @@ a:hover {
   color: #ccc;
   display: block;
   vertical-align: middle;
+  width: 10em;
 }
 
 h1, h1 a, h2 {
-  font-size: 1em;
+  font-size: 1.05em;
   display: block;
   color: #555;
-  font-weight: bold;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1.05em;
+  font-weight: normal;
+  text-align: center;
 }
 
 .navbar {
