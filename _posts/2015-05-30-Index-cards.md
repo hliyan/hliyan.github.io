@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Index cards as an Evernote alternative
-date: 2015-05-31 09:42:43
+date: 2015-05-30 09:42:43
 ---
 
 After 20 years of fiddling with various electronic formats to keep notes and record my thoughts (which I have been doing since I was 15), I've finally returned to where I started: pen-and-paper. I got the idea from Umberto Eco's [How to Write a Thesis](http://www.amazon.com/How-Write-Thesis-Umberto-Eco/dp/0262527138), a book so brilliant it still remains relevant today, almost 40 years after publication.
@@ -10,7 +10,7 @@ An [index card](http://en.wikipedia.org/wiki/Index_card) is a 3 x 5 inch piece o
 
 Unfortunately, index cards are not locally available. So I had to improvise. I went to [Pettah](http://www.yamu.lk/place/pettah-a-guide/), bought a packet of 200gsm paper (normal photocopy paper thickness is 80 gsm), and had a greeting card shop cut it into 3 x 5' pieces. I bought a fine felt-tipped pen to write on them (unlike a ballpoint, it forces me to take my time to write neatly). The result:
 
-![index-card](/public/images/2015-05-31-index-cards.jpg)
+![index-card](/public/images/2015-05-30-index-cards.jpg)
 
 <!--break-->
 
