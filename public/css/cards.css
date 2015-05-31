@@ -107,6 +107,9 @@ h1, h1 a, h2 {
 .post-header {
   display: flex;
   justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-color: #eee;
+  border-bottom-width: 1px;
 }
 
 .footnote {
