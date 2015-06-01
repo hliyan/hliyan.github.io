@@ -9,6 +9,8 @@ Armed with a Phillips screwdriver, a pair of tweezers and a 300x digital microsc
 
 I'll be concentrating on the read head (1) below, which slides back and forth along the metal rod (2) as the disc turns:
 
+<!--break-->
+
 ![2](/public/images/2014-07-15-dvd/2.jpg)
 
 Removing the plastic cover:
