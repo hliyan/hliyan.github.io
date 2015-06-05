@@ -1,0 +1,9 @@
+books:
+    current:
+        - name: Gödel, Escher, Bach: An Eternal Golden Braid
+          author: Douglas Hofstadter
+          url: http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567
+          pages: 824
+          pages_read: 248
+    history:
+articles:
