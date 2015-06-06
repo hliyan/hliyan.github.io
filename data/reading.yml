@@ -1,9 +1,25 @@
 books:
-    current:
+    2015:
         - name: Gödel, Escher, Bach: An Eternal Golden Braid
           author: Douglas Hofstadter
           url: http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567
           pages: 824
           pages_read: 248
-    history:
+          started: 2015-05-20
 articles:
+    2015-06-06:
+
+        - title: CRISPR, the disruptor
+          url: http://www.nature.com/news/crispr-the-disruptor-1.17673
+          about: A new, powerful gene editing technique
+
+        - title: A Crisis at the Edge of Physics
+          url: http://www.nytimes.com/2015/06/07/opinion/a-crisis-at-the-edge-of-physics.html
+          about: Scientific theories without empirical evidence
+
+        - title: JSON-LD and Why I Hate the Semantic Web (2014) 
+          url: http://manu.sporny.org/2014/json-ld-origins-2/
+
+        - title: JSON for Linking Data
+          url: http://json-ld.org/
+
