@@ -1,0 +1,55 @@
+---
+layout: default
+title: Reading
+---
+
+<div class="box">
+    <div class="post-header">
+        <h1>{{ page.title }}</h1>
+    </div>
+    {% if site.data.reading.books.current %}
+      <h2>Books: now reading</h2>
+      <ul>
+      {% for book in site.data.reading.books.current %}
+        <li>
+          <em><a href="{{book.url}}">{{book.title}}</a></em><br> by {{book.author}}
+          {% if book.pages_read or book.started %}
+            <div class="reading-summary">
+            {% if book.pages_read %}
+              Currently on page {{book.pages_read}} of {{book.pages}}
+            {% endif %}
+            {% if book.started %}
+              &middot; Reading since {{book.started | date: '%d %B %Y'}}
+            {% endif %}
+            </div>
+          {% endif %}
+
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+
+    <h2>Articles</h2>
+    {% for day in site.data.reading.articles %}
+      <h2>{{ day[0] | date: '%d %B %Y' }}</h2>
+      <ul>
+        {% for item in day[1] %}
+          {% assign domain = item.url | split:'/' %}
+
+          <li><a href="{{ item.url }}">{{ item.title }}</a>
+
+          {% if item.quotes %}
+            <div>
+            {% for point in item.quotes %}
+              <blockquote class="reading-summary">{{ point }}</blockquote>
+            {% endfor %}
+            </div>
+          {% endif %}
+
+          <div class="sub">{{ domain[2] | remove_first:'www.' }}</div>
+          </li>
+        {% endfor %}
+      </ul>
+      
+    {% endfor %}
+</div>

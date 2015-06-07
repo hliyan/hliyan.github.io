@@ -1,0 +1,89 @@
+books:
+    current:
+        - title: 'Gödel, Escher, Bach: An Eternal Golden Braid'
+          author: Douglas Hofstadter
+          url: http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567
+          pages: 824
+          pages_read: 248
+          started: 2015-05-20
+articles:
+    2015-06-07:
+        - title: HTML is done
+          url: https://www.tbray.org/ongoing/When/201x/2015/06/05/End-of-HTML
+          quotes:
+            - | 
+              The W3C HTML Work­ing Group char­ter is ex­pir­ing... 
+              Things are pret­ty qui­et in the WhatWG...
+              Con­clu­sion: The best thing to do about HTML is: noth­ing.
+
+        - title: On Managing Developers
+          url: http://techcrunch.com/2015/06/06/on-managing-developers/
+          quotes:
+            - |
+              The great irony of management is that the higher up you go, 
+              the less actual control you have. When you are but a humble coder, 
+              you make the computer do exactly what you want; when you’re a manager, 
+              you only hope that people understand what you want, 
+              and then trust/pray that they do it both correctly and in a timely manner.
+
+        - title: Do memory lapses help us to be happy?
+          url: http://aeon.co/magazine/philosophy/do-memory-lapses-help-us-to-be-happy/
+          quotes: 
+            - | 
+              Then there are the saints: those who, seemingly with ease, forget the wrongs 
+              done them and go on to lead lives free of recrimination. They, it seems, 
+              are of another species, but still live among us.
+
+    2015-06-06:
+        - title: CRISPR, the disruptor
+          url: http://www.nature.com/news/crispr-the-disruptor-1.17673
+          quotes: 
+            - Unlike other gene-editing methods, it is cheap, quick and easy to use, 
+              and it has swept through labs around the world as a result. Researchers 
+              hope to use it to adjust human genes to eliminate diseases, 
+              create hardier plants, wipe out pathogens and much more besides.
+
+        - title: A Crisis at the Edge of Physics
+          url: http://www.nytimes.com/2015/06/07/opinion/a-crisis-at-the-edge-of-physics.html
+          quotes:
+            - |
+              ...a newfound willingness among some scientists to explicitly set aside 
+              the need for experimental confirmation of today’s most ambitious cosmic 
+              theories — so long as those theories are “sufficiently elegant and explanatory.”
+              ...“breaking with centuries of philosophical tradition of defining scientific 
+              knowledge as empirical.”
+
+        - title: JSON-LD and Why I Hate the Semantic Web (2014) 
+          url: http://manu.sporny.org/2014/json-ld-origins-2/
+          quotes:
+            - |
+              The desire for better Web APIs is what motivated the creation of JSON-LD, 
+              not the Semantic Web. If you want to make the Semantic Web a reality, 
+              stop making the case for it and spend your time doing something more useful, 
+              like actually making machines smarter or helping people publish data in 
+              a way that’s useful to them.
+
+        - title: JSON for Linking Data
+          url: http://json-ld.org/
+
+    2015-06-03:
+        - title: 'HTTP/2 is here'
+          url: https://docs.google.com/presentation/d/1r7QXGYOLCh4fcUq0jDdDwKJWNqWK1o4xMtYpKZCJYjM/present?slide=id.p19
+
+    2015-05-31:
+        - title: Geeks, MOPs, and sociopaths in subculture evolution
+          url: http://meaningness.com/metablog/geeks-mops-sociopaths
+
+    2015-05-28:
+        - title: 'What’s fair?: New theory on income inequality'
+          url: http://www.eurekalert.org/pub_releases/2015-05/cuso-wfn052715.php
+
+        - title: I Fooled Millions Into Thinking Chocolate Helps Weight Loss
+          url: http://io9.com/i-fooled-millions-into-thinking-chocolate-helps-weight-1707251800
+
+        - title: Being a Better Online Reader
+          url: http://www.newyorker.com/science/maria-konnikova/being-a-better-online-reader
+
+    2015-05-27:
+        - title:  The Hacker Shelf
+          url: http://hackershelf.com/topics
