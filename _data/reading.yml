@@ -3,11 +3,21 @@ books:
         - title: 'Gödel, Escher, Bach: An Eternal Golden Braid'
           author: Douglas Hofstadter
           url: http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567
-          pages: 824
-          pages_read: 248
           started: 2015-05-20
+          pages_read: 248
+          pages: 742
+        - title: Burning Eagle
+          author: Navin Weeraratne
+          url: https://www.smashwords.com/books/view/547093
+          started: 2015-06-04
+          pages_read: 71
+          pages: 338
+          
 articles:
     2015-06-07:
+        - title: How I killed app sales by going freemium
+          url: https://medium.com/@shuveb/how-i-killed-app-sales-by-going-freemium-31c04c60d2f2
+
         - title: HTML is done
           url: https://www.tbray.org/ongoing/When/201x/2015/06/05/End-of-HTML
           quotes:
