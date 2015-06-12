@@ -10,10 +10,24 @@ books:
           author: Navin Weeraratne
           url: https://www.smashwords.com/books/view/547093
           started: 2015-06-04
-          pages_read: 83
+          pages_read: 96
           pages: 338
           
 articles:
+    2015-06-12:
+      - title: Inverting Binary Trees Considered Harmful
+        url: http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful
+        quotes:
+          - | 
+            The first programmer with/without a shadow walks in. He's quite annoyed, 
+            because he was neck deep in jira or git or debugging some hairy stack-trace 
+            on eclipse, and he's been unceremoniously yanked off to interview YOU - 
+            the new dude, who has no fucking idea how things really work here. Well, 
+            he must show YOU your place. You lowly worm, how dare you interrupt the 
+            lovely horizontal scroll-through of nested exceptions emerging through the 
+            anonymous class OOM-ing inside Spring's MetaFactoryAbstractContainer ? You shall pay. 
+            Dearly. Tell me, noob, how the f*** do you invert a binary tree ? 
+
     2015-06-07:
         - title: How I killed app sales by going freemium
           url: https://medium.com/@shuveb/how-i-killed-app-sales-by-going-freemium-31c04c60d2f2
