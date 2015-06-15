@@ -6,17 +6,30 @@ books:
           started: 2015-05-20
           pages_read: 248
           pages: 742
+
         - title: Burning Eagle
           author: Navin Weeraratne
           url: https://www.smashwords.com/books/view/547093
           started: 2015-06-04
-          pages_read: 96
+          pages_read: 100
           pages: 338
           
 articles:
   2015-06-14:
     - title: Engineering Blogs
       url: https://github.com/kilimchoi/engineering-blogs
+
+    - title: The Hundred-Year Language
+      url: http://www.paulgraham.com/hundred.html
+      quotes:
+        - |
+          It's hard to predict what life will be like in a hundred years... 
+          We know that everyone will drive flying cars, that zoning laws will be 
+          relaxed to allow buildings hundreds of stories tall, that it 
+          will be dark most of the time, and that women will all be trained 
+          in the martial arts... What kind of programming language will 
+          they use to write the software controlling those flying cars?
+          
   2015-06-12:
     - title: Inverting Binary Trees Considered Harmful
       url: http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful
