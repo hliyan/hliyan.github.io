@@ -15,6 +15,9 @@ books:
           pages: 338
           
 articles:
+  2015-06-16:
+    - title: "ZenPayroll Engineering Principles and Values [PDF]"
+      url: http://engineering.zenpayroll.com/our-engineering-values-and-principles/
   2015-06-14:
     - title: Engineering Blogs
       url: https://github.com/kilimchoi/engineering-blogs
@@ -29,7 +32,7 @@ articles:
           will be dark most of the time, and that women will all be trained 
           in the martial arts... What kind of programming language will 
           they use to write the software controlling those flying cars?
-          
+
   2015-06-12:
     - title: Inverting Binary Trees Considered Harmful
       url: http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful
