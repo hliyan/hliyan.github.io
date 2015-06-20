@@ -30,15 +30,14 @@ articles:
   2015-06-16:
     - title: "ZenPayroll Engineering Principles and Values [PDF]"
       url: http://engineering.zenpayroll.com/our-engineering-values-and-principles
+
+    - title: Teach, Don’t Tell
+      url: http://stevelosh.com/blog/2013/09/teach-dont-tell/
       quotes:
         - |
           I also love writing documentation. Being able to rewire the neurons 
           in someone’s brain so that they understand something they didn’t 
           understand before is extremely satisfying.
-
-    - title: Teach, Don’t Tell
-      url: http://stevelosh.com/blog/2013/09/teach-dont-tell/
-
 
   2015-06-14:
     - title: Engineering Blogs
