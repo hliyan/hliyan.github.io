@@ -18,6 +18,12 @@ articles:
   2015-06-27:
     - title: "I Don’t Believe in God, but I Believe in Lithium"
       url: http://www.nytimes.com/2015/06/28/magazine/i-dont-believe-in-god-but-i-believe-in-lithium.html
+      quotes:
+        - |
+          "Elements on the periodic table can’t be patented. Pharmaceutical companies therefore have little 
+          incentive to promote lithium or develop other uses for it, despite its potential. It has shown 
+          promise as a therapy for Alzheimer’s, for example. A study in Japan has shown a sample 
+          population to be less likely to commit suicide after drinking tap water containing lithium."
   2015-06-21:
     - title: No Time to Be Nice at Work
       url: http://www.nytimes.com/2015/06/21/opinion/sunday/is-your-boss-mean.html
