@@ -7,11 +7,13 @@ books:
           pages_read: 248
           pages: 742
 
+    read:
         - title: Burning Eagle
           author: Navin Weeraratne
           url: https://www.smashwords.com/books/view/547093
           started: 2015-06-04
-          pages_read: 110
+          finished: 2015-06-25
+          pages_read: 338
           pages: 338
           
 articles:
