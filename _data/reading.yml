@@ -15,6 +15,17 @@ books:
           pages: 338
           
 articles:
+  2015-07-05:
+    - title: Greek debt crisis
+      url: http://www.interfluidity.com/v2/5965.html
+      quotes:
+        - |
+          They knew the Greek state was sketchy. But precisely because it was sketchy, 
+          prior to the financial crisis its debt paid slightly higher interest rates 
+          than that of safer Eurozone sovereigns. European banking regulations attached 
+          zero risk weights to all EU sovereigns, rendering it nearly costless for banks 
+          to simply manufacture deposits to purchase sovereign debt.
+
   2015-06-27:
     - title: "I Don’t Believe in God, but I Believe in Lithium"
       url: http://www.nytimes.com/2015/06/28/magazine/i-dont-believe-in-god-but-i-believe-in-lithium.html
