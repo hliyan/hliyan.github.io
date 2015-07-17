@@ -15,17 +15,28 @@ books:
           finished: 2015-06-25
           pages_read: 338
           pages: 338
-          
+
 articles:
+  2015-07-17:
+    - title: "Bringing componentization to the web: An overview of Web Components"
+      url: http://blogs.windows.com/msedgedev/2015/07/14/bringing-componentization-to-the-web-an-overview-of-web-components/
+  2015-07-16:
+    - title: An Unusual Tool in Hiring the Right Person
+      url: http://www.nytimes.com/1998/09/27/nyregion/an-unusual-tool-in-hiring-the-right-person.html
+  2015-07-12:
+    - title: "Don't Call Yourself A Programmer, And Other Career Advice"
+      url: http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/
   2015-07-05:
+    - title: The man who saw time stand still
+      url: http://www.bbc.com/future/story/20140624-the-man-who-saw-time-freeze
     - title: Greek debt crisis
       url: http://www.interfluidity.com/v2/5965.html
       quotes:
         - |
-          They knew the Greek state was sketchy. But precisely because it was sketchy, 
-          prior to the financial crisis its debt paid slightly higher interest rates 
-          than that of safer Eurozone sovereigns. European banking regulations attached 
-          zero risk weights to all EU sovereigns, rendering it nearly costless for banks 
+          They knew the Greek state was sketchy. But precisely because it was sketchy,
+          prior to the financial crisis its debt paid slightly higher interest rates
+          than that of safer Eurozone sovereigns. European banking regulations attached
+          zero risk weights to all EU sovereigns, rendering it nearly costless for banks
           to simply manufacture deposits to purchase sovereign debt.
 
   2015-06-27:
@@ -33,9 +44,9 @@ articles:
       url: http://www.nytimes.com/2015/06/28/magazine/i-dont-believe-in-god-but-i-believe-in-lithium.html
       quotes:
         - |
-          "Elements on the periodic table can’t be patented. Pharmaceutical companies therefore have little 
-          incentive to promote lithium or develop other uses for it, despite its potential. It has shown 
-          promise as a therapy for Alzheimer’s, for example. A study in Japan has shown a sample 
+          "Elements on the periodic table can’t be patented. Pharmaceutical companies therefore have little
+          incentive to promote lithium or develop other uses for it, despite its potential. It has shown
+          promise as a therapy for Alzheimer’s, for example. A study in Japan has shown a sample
           population to be less likely to commit suicide after drinking tap water containing lithium."
   2015-06-21:
     - title: No Time to Be Nice at Work
@@ -45,16 +56,16 @@ articles:
       url: http://www.theatlantic.com/business/archive/2015/06/what-is-the-greatest-good/395768/?single_page=true
       quotes:
         - |
-          Inspired to make a meaningful donation, I wondered: What is the best charitable cause in the world, 
+          Inspired to make a meaningful donation, I wondered: What is the best charitable cause in the world,
           and was it crazy to think I could find it?
-    
+
     - title: How to write a proper cease-and-desist
       url: https://brokenpianoforpresident.files.wordpress.com/2012/07/jd-letter-entire-big1.jpg
     - title: "Why the Pope's letter on climate change matters"
       url: http://www.nature.com/news/why-the-pope-s-letter-on-climate-change-matters-1.17800
     - title: Graphene booms in factories but lacks a killer app
       url: http://www.nature.com/news/graphene-booms-in-factories-but-lacks-a-killer-app-1.17771
-  
+
   2015-06-18:
     - title: "Launch WebAssembly, A New Binary Format For The Web"
       url: http://techcrunch.com/2015/06/17/google-microsoft-mozilla-and-others-team-up-to-launch-webassembly-a-new-binary-format-for-the-web
@@ -67,8 +78,8 @@ articles:
       url: http://stevelosh.com/blog/2013/09/teach-dont-tell/
       quotes:
         - |
-          I also love writing documentation. Being able to rewire the neurons 
-          in someone’s brain so that they understand something they didn’t 
+          I also love writing documentation. Being able to rewire the neurons
+          in someone’s brain so that they understand something they didn’t
           understand before is extremely satisfying.
 
   2015-06-14:
@@ -79,26 +90,26 @@ articles:
       url: http://www.paulgraham.com/hundred.html
       quotes:
         - |
-          It's hard to predict what life will be like in a hundred years... 
-          We know that everyone will drive flying cars, that zoning laws will be 
-          relaxed to allow buildings hundreds of stories tall, that it 
-          will be dark most of the time, and that women will all be trained 
-          in the martial arts... What kind of programming language will 
+          It's hard to predict what life will be like in a hundred years...
+          We know that everyone will drive flying cars, that zoning laws will be
+          relaxed to allow buildings hundreds of stories tall, that it
+          will be dark most of the time, and that women will all be trained
+          in the martial arts... What kind of programming language will
           they use to write the software controlling those flying cars?
 
   2015-06-12:
     - title: Inverting Binary Trees Considered Harmful
       url: http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful
       quotes:
-        - | 
-          The first programmer with/without a shadow walks in. He's quite annoyed, 
-          because he was neck deep in jira or git or debugging some hairy stack-trace 
-          on eclipse, and he's been unceremoniously yanked off to interview YOU - 
-          the new dude, who has no fucking idea how things really work here. Well, 
-          he must show YOU your place. You lowly worm, how dare you interrupt the 
-          lovely horizontal scroll-through of nested exceptions emerging through the 
-          anonymous class OOM-ing inside Spring's MetaFactoryAbstractContainer ? You shall pay. 
-          Dearly. Tell me, noob, how the f*** do you invert a binary tree ? 
+        - |
+          The first programmer with/without a shadow walks in. He's quite annoyed,
+          because he was neck deep in jira or git or debugging some hairy stack-trace
+          on eclipse, and he's been unceremoniously yanked off to interview YOU -
+          the new dude, who has no fucking idea how things really work here. Well,
+          he must show YOU your place. You lowly worm, how dare you interrupt the
+          lovely horizontal scroll-through of nested exceptions emerging through the
+          anonymous class OOM-ing inside Spring's MetaFactoryAbstractContainer ? You shall pay.
+          Dearly. Tell me, noob, how the f*** do you invert a binary tree ?
 
   2015-06-07:
       - title: How I killed app sales by going freemium
@@ -107,8 +118,8 @@ articles:
       - title: HTML is done
         url: https://www.tbray.org/ongoing/When/201x/2015/06/05/End-of-HTML
         quotes:
-          - | 
-            The W3C HTML Work­ing Group char­ter is ex­pir­ing... 
+          - |
+            The W3C HTML Work­ing Group char­ter is ex­pir­ing...
             Things are pret­ty qui­et in the WhatWG...
             Con­clu­sion: The best thing to do about HTML is: noth­ing.
 
@@ -116,47 +127,47 @@ articles:
         url: http://techcrunch.com/2015/06/06/on-managing-developers/
         quotes:
           - |
-            The great irony of management is that the higher up you go, 
-            the less actual control you have. When you are but a humble coder, 
-            you make the computer do exactly what you want; when you’re a manager, 
-            you only hope that people understand what you want, 
+            The great irony of management is that the higher up you go,
+            the less actual control you have. When you are but a humble coder,
+            you make the computer do exactly what you want; when you’re a manager,
+            you only hope that people understand what you want,
             and then trust/pray that they do it both correctly and in a timely manner.
 
       - title: Do memory lapses help us to be happy?
         url: http://aeon.co/magazine/philosophy/do-memory-lapses-help-us-to-be-happy/
-        quotes: 
-          - | 
-            Then there are the saints: those who, seemingly with ease, forget the wrongs 
-            done them and go on to lead lives free of recrimination. They, it seems, 
+        quotes:
+          - |
+            Then there are the saints: those who, seemingly with ease, forget the wrongs
+            done them and go on to lead lives free of recrimination. They, it seems,
             are of another species, but still live among us.
 
   2015-06-06:
       - title: CRISPR, the disruptor
         url: http://www.nature.com/news/crispr-the-disruptor-1.17673
-        quotes: 
-          - Unlike other gene-editing methods, it is cheap, quick and easy to use, 
-            and it has swept through labs around the world as a result. Researchers 
-            hope to use it to adjust human genes to eliminate diseases, 
+        quotes:
+          - Unlike other gene-editing methods, it is cheap, quick and easy to use,
+            and it has swept through labs around the world as a result. Researchers
+            hope to use it to adjust human genes to eliminate diseases,
             create hardier plants, wipe out pathogens and much more besides.
 
       - title: A Crisis at the Edge of Physics
         url: http://www.nytimes.com/2015/06/07/opinion/a-crisis-at-the-edge-of-physics.html
         quotes:
           - |
-            ...a newfound willingness among some scientists to explicitly set aside 
-            the need for experimental confirmation of today’s most ambitious cosmic 
+            ...a newfound willingness among some scientists to explicitly set aside
+            the need for experimental confirmation of today’s most ambitious cosmic
             theories — so long as those theories are “sufficiently elegant and explanatory.”
-            ...“breaking with centuries of philosophical tradition of defining scientific 
+            ...“breaking with centuries of philosophical tradition of defining scientific
             knowledge as empirical.”
 
-      - title: JSON-LD and Why I Hate the Semantic Web (2014) 
+      - title: JSON-LD and Why I Hate the Semantic Web (2014)
         url: http://manu.sporny.org/2014/json-ld-origins-2/
         quotes:
           - |
-            The desire for better Web APIs is what motivated the creation of JSON-LD, 
-            not the Semantic Web. If you want to make the Semantic Web a reality, 
-            stop making the case for it and spend your time doing something more useful, 
-            like actually making machines smarter or helping people publish data in 
+            The desire for better Web APIs is what motivated the creation of JSON-LD,
+            not the Semantic Web. If you want to make the Semantic Web a reality,
+            stop making the case for it and spend your time doing something more useful,
+            like actually making machines smarter or helping people publish data in
             a way that’s useful to them.
 
       - title: JSON for Linking Data
