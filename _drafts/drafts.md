@@ -27,6 +27,7 @@ genetic sequencing
 3d printing
 mapping the brain
 voice recognition and speech synthesis
-machine translation
+machine translation, speech synthesis
 graphene
 alcubierre drive
+private space exploration
