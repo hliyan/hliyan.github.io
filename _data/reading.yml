@@ -17,6 +17,26 @@ books:
           pages: 338
 
 articles:
+  2015-07-19:
+    - title: "Is Advertising Morally Justifiable?"
+      url: http://www.abc.net.au/religion/articles/2015/07/14/4273200.htm
+      quotes:
+        - | 
+            "Advertising is a natural resource extraction industry, like a fishery. Its business is the harvest 
+            and sale of human attention. We are the fish and we are not consulted. First, advertising imposes 
+            costs on individuals without permission or compensation. It extracts our precious attention and 
+            emits toxic by-products, such as the sale of our personal information to dodgy third parties."
+
+        - | 
+            "Second, you may have noticed that the world's fisheries are not in great shape. They are a standard 
+            example for explaining the theoretical concept of a tragedy of the commons, where rational 
+            maximising behaviour by individual harvesters leads to the unsustainable overexploitation of a resource. 
+            Expensively trained human attention is the fuel of twenty-first century capitalism. We are allowing 
+            a single industry to slash and burn vast amounts of this productive resource in search of a quick buck."
+
+  2015-07-18:
+    - title: "The Mythical Man-Month, a Summary"
+      url: http://javatroopers.com/Mythical_Man_Month.html
   2015-07-17:
     - title: "Bringing componentization to the web: An overview of Web Components"
       url: http://blogs.windows.com/msedgedev/2015/07/14/bringing-componentization-to-the-web-an-overview-of-web-components/
