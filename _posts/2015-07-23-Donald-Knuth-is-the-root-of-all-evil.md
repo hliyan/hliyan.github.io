@@ -23,7 +23,7 @@ I don't know the size, performance expectations or the language of the types of 
 
 A better alternative: be mindful of *Amdahl's Law* [^2] and the cost of I/O:
 
-![cost of IO](public/images/2015-07-23-knuth/cost-of-io.png)
+![cost of IO](/public/images/2015-07-23-knuth/cost-of-io.png)
 
 [^1]: [Structured Programming With Go To Statements](http://web.archive.org/web/20130731202547/http://pplab.snu.ac.kr/courses/adv_pl05/papers/p261-knuth.pdf), Computing Surveys, Vol. 6, No. 4, December 1974, p268
 
