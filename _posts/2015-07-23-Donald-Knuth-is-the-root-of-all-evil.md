@@ -9,6 +9,8 @@ I speak, of course, of the notorious:
 
 > "Premature optimization is the root of all evil." - Donald Knuth
 
+<!--break-->
+
 Or, one of the very few phrases you may not utter in my presence without risking being told to "get out" in a very Jobs-like fashion. I have heard this phrase being used by developers for everything from justifying their sloppy implementation to silencing someone who has pointed out a bottleneck in the code. Every single time a developer (including a younger version of myself) tried to follow this "advice", it has ended up making my job harder (often *much harder*), not easier.
 
 Here is the full quote:
