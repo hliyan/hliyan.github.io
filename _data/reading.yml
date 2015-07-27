@@ -17,6 +17,13 @@ books:
           pages: 338
 
 articles:
+  2015-07-27:
+    - title: The Push Against Performance Reviews
+      url: http://www.newyorker.com/business/currency/the-push-against-performance-reviews
+      quotes:
+        - |
+          "The Post's headline about the research described it succinctly: 
+          'Study finds that basically every single person hates performance reviews.'"
   2015-07-19:
     - title: "Superheroes a 'cultural catastrophe', says comics guru Alan Moore"
       url: http://www.theguardian.com/books/2014/jan/21/superheroes-cultural-catastrophe-alan-moore-comics-watchmen
