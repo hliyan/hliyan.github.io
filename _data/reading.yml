@@ -17,6 +17,21 @@ books:
           pages: 338
 
 articles:
+  2015-08-22:
+    - title: The Theoretical Minimum
+      url: http://theoreticalminimum.com/
+  2015-08-21:
+    - title: "How Zapier Went From Zero to 600,000+ Users in Just Three Years"
+      url: https://www.groovehq.com/blog/zapier-interview-with-wade-foster
+      quotes:
+        - |
+          "You can build a business that sells the highest quality product. 
+          Companies like Apple that build things that are best in class and have the price tag to match. 
+          You can build a business that offers the cheapest deals like Walmart or Amazon. 
+          The thing about the best and cheapest is that it’s hard to be either one of those for a new company. 
+          You’re probably not going to be the best, because your product is brand new. 
+          And being cheap is really hard because you can’t take advantage of economies of scale.
+          The third type of business you can build too is the one with the best customer service."
   2015-08-01:
     - title: A Company Copes With Backlash Against the Raise That Roared
       url: http://www.nytimes.com/2015/08/02/business/a-company-copes-with-backlash-against-the-raise-that-roared.html
