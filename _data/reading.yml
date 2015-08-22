@@ -20,6 +20,15 @@ articles:
   2015-08-22:
     - title: The Theoretical Minimum
       url: http://theoreticalminimum.com/
+      quotes:
+        - |
+          "A number of years ago I became aware of the large number of physics enthusiasts 
+          out there who have no venue to learn modern physics and cosmology.  
+          Fat advanced textbooks are not suitable to people who have no teacher to ask questions of, 
+          and the popular literature does not go deeply enough to satisfy these curious people.  
+          So I started a series of courses on modern physics at Stanford University where I am a professor of physics.  
+          The courses are specifically aimed at people who know, or once knew, 
+          a bit of algebra and calculus, but are more or less beginners."
   2015-08-21:
     - title: "How Zapier Went From Zero to 600,000+ Users in Just Three Years"
       url: https://www.groovehq.com/blog/zapier-interview-with-wade-foster
