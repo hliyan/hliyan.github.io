@@ -29,6 +29,13 @@ articles:
           So I started a series of courses on modern physics at Stanford University where I am a professor of physics.  
           The courses are specifically aimed at people who know, or once knew, 
           a bit of algebra and calculus, but are more or less beginners."
+    - title: "JSON-schema"
+      url: http://json-schema.org/
+      quotes:
+        - |
+          "describes your existing data format; clear, human- and machine-readable documentation;
+          complete structural validation, useful for automated testing;
+          validating client-submitted data"
   2015-08-21:
     - title: "How Zapier Went From Zero to 600,000+ Users in Just Three Years"
       url: https://www.groovehq.com/blog/zapier-interview-with-wade-foster
