@@ -18,6 +18,11 @@ books:
 
 articles:
   2015-08-22:
+    - title: "You Really Don’t Need To Work So Much"
+      url: http://www.newyorker.com/news/daily-comment/you-really-dont-need-to-work-so-much
+      quotes:
+        - |
+          "Once upon a time, it was taken for granted that the wealthier classes enjoyed a life of leisure on the backs of the proletariat. Today it is people in skilled trades who can most find reasonable hours coupled with good pay; the American professional is among those subject to humiliation and driven like a beast of burden."
     - title: The Theoretical Minimum
       url: http://theoreticalminimum.com/
       quotes:
@@ -30,10 +35,10 @@ articles:
           The courses are specifically aimed at people who know, or once knew, 
           a bit of algebra and calculus, but are more or less beginners."
     - title: "JSON-schema"
-      url: http://json-schema.org/
+      url: "http://json-schema.org"
       quotes:
         - |
-          "describes your existing data format; clear, human- and machine-readable documentation;
+          "describes your existing data format; clear, human and machine readable documentation;
           complete structural validation, useful for automated testing;
           validating client-submitted data"
   2015-08-21:
