@@ -18,6 +18,10 @@ books:
 
 articles:
   2015-08-23:
+    - title: The three principles of Redux (Flux library for React.js)
+      url: http://rackt.github.io/redux/docs/introduction/ThreePrinciples.html
+      quotes:
+        - "State is read only: This ensures that the views or the network callbacks never write directly to the state, and instead express the intent to mutate. Because all mutations are centralized and happen one by one in a strict order, there are no subtle race conditions to watch out for. Actions are just plain objects, so they can be logged, serialized, stored, and later replayed for debugging or testing purposes."
     - title: Market Maturity
       url: http://www.uie.com/articles/market_maturity/
       quotes: 
