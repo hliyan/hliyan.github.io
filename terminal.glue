@@ -1,1 +1,16 @@
+█ [ /home/hermit/personal/src/hliyan.github.io ] gsync "reading"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    modified:   _data/reading.yml
+
+-------------------------------------------------------
+[master 382e74a] reading
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+To git@github-home:hliyan/hliyan.github.io.git
+   faf610c..382e74a  master -> master
+
  

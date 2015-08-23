@@ -17,6 +17,14 @@ books:
           pages: 338
 
 articles:
+  2015-08-23:
+    - title: Market Maturity
+      url: http://www.uie.com/articles/market_maturity/
+      quotes: 
+        - "Say your company is the first one to introduce a product with a radically new concept, and people love it. In the Raw Iron stage, users are excited about the product’s most basic capabilities, and they’ll pay top dollar for them."
+        - "During the Raw Iron stage, the development team is focused primarily on solving technical and delivery issues so they can get the product out the door to its eager new market."
+        - "In the Checklist Battles stage, one or more competitors have entered the arena, each adding their own bells and whistles to the basic product. In this stage, functionality becomes the key differentiator."
+        - "As a genre enters the Productivity Wars stage, all the vendors offer pretty much the same functionality. They consider their own productivity when deciding what to buy."
   2015-08-22:
     - title: "You Really Don’t Need To Work So Much"
       url: http://www.newyorker.com/news/daily-comment/you-really-dont-need-to-work-so-much
