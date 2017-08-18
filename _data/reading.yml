@@ -1,13 +1,24 @@
 books:
     current:
+        - title: Steve Jobs
+          author: Walter Isaacson
+          url: https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537
+          started: 2017-07-01
+          pages_read: 200
+          pages: 656
+    read:
+        - title: 'Boyd: The Fighter Pilot Who Changed the Art of War'
+          author: Robert Coram
+          url: https://www.amazon.com/Boyd-Fighter-Pilot-Who-Changed/dp/0316796883
+          started: 2016-12-01
+          pages_read: 504
+          pages: 504
         - title: 'Gödel, Escher, Bach: An Eternal Golden Braid'
           author: Douglas Hofstadter
           url: http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567
           started: 2015-05-20
           pages_read: 248
           pages: 742
-
-    read:
         - title: Burning Eagle
           author: Navin Weeraratne
           url: https://www.smashwords.com/books/view/547093
