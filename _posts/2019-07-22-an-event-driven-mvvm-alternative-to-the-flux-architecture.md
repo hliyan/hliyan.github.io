@@ -45,7 +45,7 @@ The  proposed architecture is based on the following principles and  assumptions
 
 # 3. Event-emitting models  
 
-![Flux](2019-07-22-flux.png)
+![Flux](/public/images/2019-07-22-flux/flux.png)
 
 The  primary difference between the popular Flux/Redux architecture and the  proposed architecture is the replacement of the “store” with a model that encapsulates both the business state and business logic. This may  alternatively be termed an “application engine”, and thought of in this  manner: 
 
@@ -55,7 +55,7 @@ This  model (or “engine”) encapsulates all business data and logic and is  c
 
 Based  on the principles outlined in the previous section, the model will  expose a well-defined API to the outside world: a set of getter  functions that immediately return local state within the model, a set of  functions that set off operations within the model but do not return  anything, and a set of events that are emitted at the end of operations,  which the callers of the API must subscribe to. 
 
-![MVVM](2019-07-22-mvvm.png)
+![MVVM](/public/images/2019-07-22-flux/mvvm.png)
 
 Here is a partial  source code listing of a hypothetical to-do application engine: 
 
