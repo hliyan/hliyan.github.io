@@ -36,8 +36,6 @@ The  proposed architecture is based on the following principles and  assumptions
 9. In  a non-blocking environment (such as a single-threaded front-end), only those API functions that read the local state of a module should return values. API functions that modify the module state or reach out to data sources outside the module, should not return values, but instead employ events to return values to the caller. 
 10. Business logic must be strictly decoupled from the front-end code. 
 
- 
-
 # 3. Event-emitting models  
 
 ![Flux](/public/images/2019-07-22-flux/flux.png)
@@ -46,9 +44,9 @@ The  primary difference between the popular Flux/Redux architecture and the  pro
 
 *Engine = Model + Controller – View* 
 
-This  model (or “engine”) encapsulates all business data and logic and is  completely devoid of presentational concerns, in that it can be  integrated into any type of application that requires the business logic  concerned: GUIs, CLIs, batch processes etc. 
+This  model (or “engine”) encapsulates all business data and logic and is completely devoid of presentational concerns (especially view models), in that it can be  integrated into any type of application that requires the business logic concerned: GUIs, CLIs, batch processes etc. 
 
-Based  on the principles outlined in the previous section, the model will  expose a well-defined API to the outside world: a set of getter  functions that immediately return local state within the model, a set of  functions that set off operations within the model but do not return  anything, and a set of events that are emitted at the end of operations,  which the callers of the API must subscribe to. 
+Based  on the principles outlined in the previous section, the model/engine will expose a well-defined API to the outside world: a set of getter  functions that immediately return local state within the model, a set of "action" functions that set off operations within the model but do not return anything, and a set of events that are emitted at the end of operations, which the callers of the API must subscribe to. 
 
 ![MVVM](/public/images/2019-07-22-flux/mvvm.png)
 
@@ -89,19 +87,20 @@ class TodoEngine {
 
 # 4. Event-listening view models 
 
-Here the view does not react to a central store, but to its own view model only. The view model in turn listens to events emitted by the model/engine and updates its own state. Here we have used the state of a root level container component written using React as an example:
+The second difference in the proposed architecture is that the view does not react to a central store, but only to its own view model. The view model in turn listens to events emitted by the model/engine and updates its own state. Here we have used the state of a root level container component written using React as an example:
 
 ``` javascript
 class TodoView extends React.Component { 
-  constructor() { 
-    this.engine = new TodoEngine(); 
+  constructor(props) {
+    super(props)
+    this.engine = props.engine;
   } 
 
-  onViewMount() { 
+  componentDidMount() { 
     this.engine.addEventListener(this.onTodoEngineEvent); 
   } 
 
-  onViewUnmount() { 
+  componentWillUnmount() { 
     this.engine.removeEventListener(this.onTodoEngineEvent); 
   } 
 
@@ -113,10 +112,10 @@ class TodoView extends React.Component {
           return; 
         } 
 
-        this.updateTodoView(this.engine.getTodos()); 
+        this.setState({todos: this.engine.getTodos()}); 
       break; 
     } 
-  } 
+  }
 } 
 
 ```
@@ -125,11 +124,9 @@ class TodoView extends React.Component {
 
 # 5. Production usage  
 
-This  architecture has been used in four production applications, including  two applications that have been in production for close to two years. Three of the four applications perform business critical functions. In  each application, the view layer was built with React, while the view  model layer was the state of a root level “container component” [4]. 
+This architecture has been used in four production applications, including two applications that have been in production for close to two years. Three of the four applications perform business critical functions. In  each application, the view layer was built with React, while the view  model layer was the state of a root level “container component” [4]. The child components within the container components were mostly stateless. The engine was passed to child components that needed it via the React Context API.
 
-While  the view and the view-model layers (which are where the traditional  front-end code complexity resides) have scaled well as the applications  grew in size, the model/engine often became unmanageably heavy. The  solution to this problem was relatively trivial, and could be  implemented with no effect on the view layer: the internal  implementation of the engine was split into smaller mini-engines, each  handling specific functional areas (such as users, orders), while  keeping the public API interface of the engine unchanged. 
-
- 
+While the view and view-model layers of this architecture have scaled well as the applications grew in size, the model/engine often became unmanageably heavy. The solution to this problem was relatively trivial, and could be implemented with no effect to the view layer: the internal implementation of the engine was split into smaller mini-engines, each handling specific functional areas (such as users, orders), while  keeping the public API interface of the engine unchanged. 
 
 # References 
 
