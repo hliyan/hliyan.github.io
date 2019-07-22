@@ -24,7 +24,7 @@ The  proposed architecture is based on the following principles and  assumptions
 
 1. Code comprehensibility is the primary problem present-day front-end architectures attempt to solve.
 2. While  back end systems have successfully employed layered architecture  (addressing vertical complexity) and modularization (addressing  horizontal complexity) to reduce code complexity, the same architectural solutions have had limited success in addressing the code complexity of front-end applications. 
-3. Front-ends applications are event-driven systems with real-time constraints,  running on non-scalable infrastructure (a user’s machine), within a single runtime environment (the browser). These factors contribute to the difficulties of successfully applying traditional back-end architectural solutions to front-ends.  
+3. Front-ends applications are event-driven systems with real-time constraints,  running on non-scalable infrastructure (a user’s machine), within a single runtime environment (the browser). These factors contribute to the difficulties of successfully applying traditional back-end architectural solutions to front-ends [6].  
 4. The  best way to address complexity is not through the introduction of patterns, through scoping code, i.e. by ensuring that the code implementing a given feature is localized (to a function, a file or module) and do not interact with other parts of the code except through well-defined API calls. 
 5. Organizing code based on separation of concerns (e.g. actions, stores, reducers)  rather than data and events (e.g. users, orders) reduces comprehensibility as the application grows more complex. 
 6. Complexity of an application grows linearly with the number of events, and  geometrically with the interactions between those events. 
@@ -97,7 +97,11 @@ class TodoView extends React.Component {
 
   componentWillUnmount() { 
     this.engine.removeEventListener(this.onTodoEngineEvent); 
-  } 
+  }
+  
+  onClickCreateTodoButton() {
+    this.engine.createTodo(this.state.todoInputText);
+  }
 
   onTodoEngineEvent(e) { 
     switch (e.type) { 
@@ -115,7 +119,7 @@ class TodoView extends React.Component {
 
 ```
 
- 
+Note how the view-model responds to view events (e.g. clicking the create todo button) by simply calling the corresponding engine function without expecting a return value, callback or promise resolution. The view model will instead consider that point the end of that particular event, and will expect the corresponding `CREATE_TODO` event to arrive at a later point. This too, will be considered a separate event.
 
 # 5. Production usage  
 
@@ -130,5 +134,6 @@ While the view and view-model layers of this architecture have scaled well as th
 3. You might not need redux https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367  
 4. Presentational and container components https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0 
 5. Thunk https://en.wikipedia.org/wiki/Thunk
+6. Micro Frontends, Jackson, C. https://martinfowler.com/articles/micro-frontends.html 
 
  
