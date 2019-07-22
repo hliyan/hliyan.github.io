@@ -19,7 +19,7 @@ For  the purposes of this paper, the reader may consider the popular Redux [2] l
 2. Modularization cannot be performed neatly when there are many interactions between different parts of the UI. For example, in an e-commerce application, if both the profile screen and the orders screen need to listen and respond to changes from the shopping cart screen, the states of those three screens cannot be neatly modularized.
 3. When there are multiple effects to an action, it can be very difficult to trace execution through a Flux/Redux code base.
 4. Handling asynchronous actions (which are common in web based front-ends), require the introduction of thunks [5].
-5. When using React, store immutability is often required to improve render performance (by reducing deep inspection of props).
+5. When using React, store immutability is often required to improve render performance (by reducing deep inspection of props). At times, the `shouldComponentUpdate` lifecycle hook is also used.
 
 # 2. Principles and assumptions  
 
