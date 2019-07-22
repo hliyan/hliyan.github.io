@@ -23,18 +23,18 @@ For  the purposes of this paper, the reader may consider the popular Redux [2] l
 
 # 2. Principles and assumptions  
 
-The  proposed architecture is based on the following principles and  assumptions. It is our experience that these principles and assumptions  apply primarily to large, complex front-end applications that need to be  maintained over a long period of time by a relatively large number of  developers. The reader’s experience may vary. 
+The  proposed architecture is based on the following principles and  assumptions. It is our experience that these principles and assumptions apply primarily to large, complex front-end applications that need to be maintained over a long period of time by a relatively large number of developers. The reader’s experience may vary. 
 
-1. The primary problem present-day front-end architectures attempt to solve is code comprehensibility. 
-2. While  back end systems have successfully employed layered architecture  (addressing vertical complexity) and modularization (addressing  horizontal complexity) to reduce code complexity, the same architectural  solutions have had limited success in addressing the code complexity of  front-end applications. 
-3. Front-ends  applications are event-driven systems with real-time constraints  running on non-scalable infrastructure (a user’s machine), within a  single runtime environment (the browser),  which contributes to the difficulties of successfully applying  traditional back-end architecture solutions to front-ends.  
-4. The  best way to address complexity is not through the introduction of  patterns, through scoping code, i.e. by ensuring that code implementing a  given feature is localized (to a function, a file or module) and do not  interact with other parts of the code except through well-defined API  calls. 
-5. Organizing  code based on separation of concerns (e.g. actions, stores, reducers)  rather than data and events (e.g. users, orders) reduces  comprehensibility as the application grows more complex. 
-6. Complexity  of an application grows linearly with the number of events, and  geometrically with the interactions between different events. 
+1. Code comprehensibility is the primary problem present-day front-end architectures attempt to solve.
+2. While  back end systems have successfully employed layered architecture  (addressing vertical complexity) and modularization (addressing  horizontal complexity) to reduce code complexity, the same architectural solutions have had limited success in addressing the code complexity of front-end applications. 
+3. Front-ends applications are event-driven systems with real-time constraints,  running on non-scalable infrastructure (a user’s machine), within a single runtime environment (the browser). These factors contribute to the difficulties of successfully applying traditional back-end architectural solutions to front-ends.  
+4. The  best way to address complexity is not through the introduction of patterns, through scoping code, i.e. by ensuring that the code implementing a given feature is localized (to a function, a file or module) and do not interact with other parts of the code except through well-defined API calls. 
+5. Organizing code based on separation of concerns (e.g. actions, stores, reducers)  rather than data and events (e.g. users, orders) reduces comprehensibility as the application grows more complex. 
+6. Complexity of an application grows linearly with the number of events, and  geometrically with the interactions between those events. 
 7. Data flow between different layers of the application should always take place via well-defined APIs. 
 8. Reactive  data binding (which is an implicit data flow mechanism between a view  and its data) should be limited to the view-model (VM) layer only. 
-9. In  a non-blocking environment (such as a single-threaded front-end), only  those API functions that read the local state of a module should return  values. API functions that modify the module state or reach out to data  sources outside the module, should not return values, but instead employ  events to return values to the caller. 
-10. Business logic must be strictly encapsulated away from the front-end code. 
+9. In  a non-blocking environment (such as a single-threaded front-end), only those API functions that read the local state of a module should return values. API functions that modify the module state or reach out to data sources outside the module, should not return values, but instead employ events to return values to the caller. 
+10. Business logic must be strictly decoupled from the front-end code. 
 
  
 
