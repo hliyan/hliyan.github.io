@@ -4,9 +4,7 @@ title: An event-driven MVVM alternative to the Flux front-end architecture
 date: 2019-07-22 09:46:32
 ---
 
-**Abstract.**
-
-Flux/Redux, while being one of the most widely used architectures 
+**Abstract.** Flux/Redux, while being one of the most widely used architectures 
 front-end applications using the React UI component library, has 
 demonstrated only limited success in battling the traditional 
 complexities involved in front-end application development. Here we 
@@ -15,19 +13,13 @@ briefly look at some of the reasons and propose an event-driven MVVM
 
 # 1. Problems with Flux/Redux
 
- 
-
 For  the purpose of this paper, we will choose the most widely used variant  of the Flux [1] architecture: Redux [2]. While Redux makes specific UI  workflows easier to reason about, as the application grows larger, Redux  code bases become increasingly difficult to manage. Modularization  helps to an extent, but only when there are only limited  interactions between different parts of the application. The more  interactions there are between different parts of the application, the  more difficult it becomes to trace execution through code: an action  will need to trigger multiple reducers and effects. Furthermore, in  Redux, code is not organized by the workflow they implement, but by concern: actions, reducers, effects etc., are placed in separate files. 
 
  
 
-# 2. Principles and assumptions 
-
- 
+# 2. Principles and assumptions  
 
 The  proposed architecture is based on the following principles and  assumptions. It is our experience that these principles and assumptions  apply primarily to large, complex front-end applications that need to be  maintained over a long period of time by a relatively large number of  developers. The reader’s experience may vary. 
-
- 
 
 1. The primary problem present-day front-end architectures attempt to solve is code comprehensibility. 
 
@@ -51,9 +43,7 @@ The  proposed architecture is based on the following principles and  assumptions
 
  
 
-# 3. Event-emitting models 
-
- 
+# 3. Event-emitting models  
 
 The  primary difference between the popular Flux/Redux architecture and the  proposed architecture is the replacement of the “store” with a model  that encapsulates both the business state and business logic. This may  alternatively be termed an “application engine”, and thought of in this  manner: 
 
@@ -62,8 +52,6 @@ The  primary difference between the popular Flux/Redux architecture and the  pro
 This  model (or “engine”) encapsulates all business data and logic and is  completely devoid of presentational concerns, in that it can be  integrated into any type of application that requires the business logic  concerned: GUIs, CLIs, batch processes etc. 
 
 Based  on the principles outlined in the previous section, the model will  expose a well-defined API to the outside world: a set of getter  functions that immediately return local state within the model, a set of  functions that set off operations within the model but do not return  anything, and a set of events that are emitted at the end of operations,  which the callers of the API must subscribe to. Here is a partial  source code listing of a hypothetical to-do application engine: 
-
-
 
 ``` javascript
 class TodoEngine { 
@@ -98,14 +86,12 @@ class TodoEngine {
 
 
 
-
-
 # 4. Event-listening view models 
 
-
+Here the view does not react to a central store, but to its own view model only. The view model in turn listens to events emitted by the model/engine and updates its own state. Here we have used the state of a root level container component written using React as an example:
 
 ``` javascript
-class TodoView { 
+class TodoView extends React.Component { 
   constructor() { 
     this.engine = new TodoEngine(); 
   } 
@@ -136,11 +122,7 @@ class TodoView {
 
  
 
- 
-
-#5. Production usage 
-
- 
+#5. Production usage  
 
 This  architecture has been used in four production applications, including  two applications that have been in production for close to two years. Three of the four applications perform business critical functions. In  each application, the view layer was built with React, while the view  model layer was the state of a root level “container component” [4]. 
 
@@ -148,9 +130,7 @@ While  the view and the view-model layers (which are where the traditional  fron
 
  
 
-**References** 
-
- 
+# References 
 
 1. Flux architecture https://facebook.github.io/flux/docs/in-depth-overview  
 
@@ -159,5 +139,3 @@ While  the view and the view-model layers (which are where the traditional  fron
 1. You might not need redux https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367  
 
 1. Presentational and container components https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0  
-
- 
