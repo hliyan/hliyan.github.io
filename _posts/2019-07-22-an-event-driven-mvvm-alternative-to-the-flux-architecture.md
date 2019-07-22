@@ -4,14 +4,11 @@ title: An event-driven MVVM alternative to the Flux front-end architecture
 date: 2019-07-22 09:46:32
 ---
 
-**Abstract.** Flux[1], while being one of the most widely used architectures 
-front-end applications using the React UI component library, has 
-demonstrated only limited success in battling the traditional 
-complexities involved in front-end application development. Here we 
-briefly look at some of the reasons and propose an alternative event-driven MVVM 
-(model-view-view-model) architecture.
+**Abstract.** Flux [1], while being a widely used architecture for applications built on the React UI component library, has demonstrated only limited success in battling the traditional complexities involved in front-end application development. Here we briefly look at some of the reasons for this, and propose an alternative event-driven MVVM (model-view-view-model) architecture.
 
-# 1. Problems with Flux/Redux
+# 1. Problems with Flux
+
+![Flux](/public/images/2019-07-22-flux/flux.png)
 
 For  the purposes of this paper, the reader may consider the popular Redux [2] library as a Flux variant. While Flux (and Redux) makes specific UI workflows easier to reason about, as the application grows larger the  code bases become increasingly difficult to manage. The architecture proposed next is meant for developers of large front-end applications who experience the following difficulties:
 
@@ -38,7 +35,7 @@ The  proposed architecture is based on the following principles and  assumptions
 
 # 3. Event-emitting models  
 
-![Flux](/public/images/2019-07-22-flux/flux.png)
+![MVVM](/public/images/2019-07-22-flux/mvvm.png)
 
 The  primary difference between the popular Flux/Redux architecture and the  proposed architecture is the replacement of the “store” with a model that encapsulates both the business state and business logic. This may  alternatively be termed an “application engine”, and thought of in this  manner: 
 
@@ -47,8 +44,6 @@ The  primary difference between the popular Flux/Redux architecture and the  pro
 This  model (or “engine”) encapsulates all business data and logic and is completely devoid of presentational concerns (especially view models), in that it can be  integrated into any type of application that requires the business logic concerned: GUIs, CLIs, batch processes etc. 
 
 Based  on the principles outlined in the previous section, the model/engine will expose a well-defined API to the outside world: a set of getter  functions that immediately return local state within the model, a set of "action" functions that set off operations within the model but do not return anything, and a set of events that are emitted at the end of operations, which the callers of the API must subscribe to. 
-
-![MVVM](/public/images/2019-07-22-flux/mvvm.png)
 
 Here is a partial  source code listing of a hypothetical to-do application engine: 
 
