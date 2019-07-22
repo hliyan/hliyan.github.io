@@ -45,13 +45,19 @@ The  proposed architecture is based on the following principles and  assumptions
 
 # 3. Event-emitting models  
 
-The  primary difference between the popular Flux/Redux architecture and the  proposed architecture is the replacement of the “store” with a model  that encapsulates both the business state and business logic. This may  alternatively be termed an “application engine”, and thought of in this  manner: 
+![Flux](2019-07-22-flux.png)
+
+The  primary difference between the popular Flux/Redux architecture and the  proposed architecture is the replacement of the “store” with a model that encapsulates both the business state and business logic. This may  alternatively be termed an “application engine”, and thought of in this  manner: 
 
 *Engine = Model + Controller – View* 
 
 This  model (or “engine”) encapsulates all business data and logic and is  completely devoid of presentational concerns, in that it can be  integrated into any type of application that requires the business logic  concerned: GUIs, CLIs, batch processes etc. 
 
-Based  on the principles outlined in the previous section, the model will  expose a well-defined API to the outside world: a set of getter  functions that immediately return local state within the model, a set of  functions that set off operations within the model but do not return  anything, and a set of events that are emitted at the end of operations,  which the callers of the API must subscribe to. Here is a partial  source code listing of a hypothetical to-do application engine: 
+Based  on the principles outlined in the previous section, the model will  expose a well-defined API to the outside world: a set of getter  functions that immediately return local state within the model, a set of  functions that set off operations within the model but do not return  anything, and a set of events that are emitted at the end of operations,  which the callers of the API must subscribe to. 
+
+![MVVM](2019-07-22-mvvm.png)
+
+Here is a partial  source code listing of a hypothetical to-do application engine: 
 
 ``` javascript
 class TodoEngine { 
@@ -122,7 +128,7 @@ class TodoView extends React.Component {
 
  
 
-#5. Production usage  
+# 5. Production usage  
 
 This  architecture has been used in four production applications, including  two applications that have been in production for close to two years. Three of the four applications perform business critical functions. In  each application, the view layer was built with React, while the view  model layer was the state of a root level “container component” [4]. 
 
