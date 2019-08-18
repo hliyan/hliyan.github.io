@@ -16,6 +16,7 @@ author:
   name:           '@hliyan'
   url:            https://twitter.com/h_liyan
 
+gems: [jekyll-paginate]
 paginate:         10
 
 # for feed.xml
@@ -24,4 +25,3 @@ description: 'Personal blog of H. N. Liyanage'
 url: http://hliyan.github.io
 
 
-theme: jekyll-theme-minimal
