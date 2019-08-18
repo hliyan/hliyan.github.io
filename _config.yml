@@ -23,3 +23,5 @@ name: 'Zen and the Art of Software Development'
 description: 'Personal blog of H. N. Liyanage'
 url: http://hliyan.github.io
 
+
+theme: jekyll-theme-minimal
