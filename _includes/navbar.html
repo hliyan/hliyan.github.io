@@ -3,9 +3,9 @@
         {% if page.title == "Home" %}
             {% if paginator.previous_page %}
             {% if paginator.page == 2 %}
-              <a class="pagination-item newer" href="{{ site.baseurl }}">«</a>
+              <a class="pagination-item newer" href="/">«</a>
             {% else %}
-              <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">«</a>
+              <a class="pagination-item newer" href="/page{{paginator.previous_page}}">«</a>
             {% endif %}
             {% else %}
                 <span class="pagination-item newer">«</span>
@@ -14,13 +14,13 @@
     </div>
 
     <div>
-        <a class="site-title" href="{{ site.baseurl }}">{{ site.title }}</a> <br>
+        <a class="site-title" href="/">{{ site.title }}</a> <br>
         <div class="site-subtitle">
-            <a href="{{ site.baseurl }}about">{{ site.author.name }}</a>  
+            <a href="/about">{{ site.author.name }}</a>  
             &nbsp;&middot;&nbsp;
-            <a href="{{ site.baseurl }}archives">writing</a>    
+            <a href="/archives">writing</a>    
             &nbsp;&middot;&nbsp;
-            <a href="{{ site.baseurl }}reading">reading</a>             
+            <a href="/reading">reading</a>             
         </div>
 
     </div>    
@@ -28,7 +28,7 @@
     <div class="newer-older">
         {% if page.title == "Home" %}
           {% if paginator.next_page %}
-            <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">»</a>
+            <a class="pagination-item older" href="/page{{paginator.next_page}}">»</a>
           {% else %}
             <span class="pagination-item older">»</span>
           {% endif %}
