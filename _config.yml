@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            'Zen and the Art of Software Development'
+title:            'Zen and the Art of Software'
 tagline:          '@hliyan'
 description:      'Personal blog of H. N. Liyanage'
 url:              http://hliyan.github.io
@@ -15,12 +15,13 @@ url:              http://hliyan.github.io
 author:
   name:           '@hliyan'
   url:            https://twitter.com/h_liyan
+  image:         https://avatars1.githubusercontent.com/u/6211831
 
 gems: [jekyll-paginate]
 paginate:         10
 
 # for feed.xml
-name: 'Zen and the Art of Software Development'
+name: 'Zen and the Art of Software'
 description: 'Personal blog of H. N. Liyanage'
 url: http://hliyan.github.io
 

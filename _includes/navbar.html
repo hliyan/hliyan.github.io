@@ -1,38 +1,12 @@
-<div class="navbar">
-    <div class="newer-older">
-        {% if page.title == "Home" %}
-            {% if paginator.previous_page %}
-            {% if paginator.page == 2 %}
-              <a class="pagination-item newer" href="/">«</a>
-            {% else %}
-              <a class="pagination-item newer" href="/page{{paginator.previous_page}}">«</a>
-            {% endif %}
-            {% else %}
-                <span class="pagination-item newer">«</span>
-            {% endif %}
-        {% endif %}
-    </div>
-
+<center class="navbar">
     <div>
-        <a class="site-title" href="/">{{ site.title }}</a> <br>
+        <p><strong><a class="site-title" href="/">{{ site.title }}</a></strong></p>
         <div class="site-subtitle">
             <a href="/about">{{ site.author.name }}</a>  
-            &nbsp;&middot;&nbsp;
+            |
             <a href="/archives">writing</a>    
-            &nbsp;&middot;&nbsp;
+            |
             <a href="/reading">reading</a>             
         </div>
-
     </div>    
-
-    <div class="newer-older">
-        {% if page.title == "Home" %}
-          {% if paginator.next_page %}
-            <a class="pagination-item older" href="/page{{paginator.next_page}}">»</a>
-          {% else %}
-            <span class="pagination-item older">»</span>
-          {% endif %}
-        {% endif %}
-    </div>
-</div>
-<div style="height: 3em;"></div>
+</center>
