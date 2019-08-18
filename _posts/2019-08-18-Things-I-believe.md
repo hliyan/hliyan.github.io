@@ -44,6 +44,18 @@ Technology is defined as the application of scientific knowledge for practical p
 
 Programming is not hard. Programming very large programs is hard. Programming becomes easy when the problem is broken down into small enough pieces the right way. Break it down the wrong way, and you merely shift the difficulty from building to assembling.
 
+## What is design?
+
+Design is the process of determining how something is to be done, before attempting to do it. This is not to be confused with planning, which is the process of determining what is to be done in what order, when and by whom, before starting.
+
+Design is a process of prediction, and therefore requires knowledge of the principles of the domain. Design is also a process of instruction: once the design is complete, the outcome should be a document that instructs either the author or another person on how to go about constructing the intended system.
+
+The design process needs to be structured. Two individuals given the same constraints and tools, should not produce two wildly differing designs. Design documents need to be structured. Two individuals, given the same design, should not produce two wildly differing systems.
+
+Design is needed when the system to be developed is too large or complex to be directly programmed from requirements. Therefore design can be thought of as a process of envisioning the whole system, and then breaking it down into progressively smaller components until each component reaches a level of simplicity that can be directly programmed. In this sense, design is recursive.
+
+Designs need to be simple. The more parts there are in a system, the more parts there are to fail. Fewer parts are better.
+
 ## What is a component?
 
 Anything that is a part of a whole is a component. In engineering, the nature of good components is that they are designed, built and verified as if they are systems in themselves: they have their own dimensions, tolerances and specifications. Once integrated into a larger system, the engineers of that largers system need not worry about the internals of the component, and for all intents and purposes, should be able to treat it as a black box that behaves as per specification. A component that fails to meet its specifications, or worse, has no specification to speak of, fails in its purpose.
