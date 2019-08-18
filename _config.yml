@@ -10,7 +10,7 @@ title:            'Zen and the Art of Software Development'
 tagline:          '@hliyan'
 description:      'Personal blog of H. N. Liyanage'
 url:              http://hliyan.github.io
-baseurl:          '/'
+#baseurl:          '/'
 
 author:
   name:           '@hliyan'
