@@ -1,3 +1,9 @@
+---
+layout: post
+title: You might not need redux
+date: 2017-05-08 01:45:00
+---
+
 Whenever I start a new front end project using React, I get a lot of helpful suggestions like "Use Redux, it's great!" or "Use Mobx, it's great!" or "Use Redux Saga, it's great!".
 
 "But why would I need Redux (or Mobx or Redux Saga, or whatever state management library that is in vogue as you read this)?" I ask.
