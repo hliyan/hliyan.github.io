@@ -6,15 +6,15 @@ date: 2019-08-18 01:00:00
 
 ## What is the most important thing?
 
-    “The most important property of a program is whether it accomplishes the intention of its user.” ― C.A.R. Hoare
+> “The most important property of a program is whether it accomplishes the intention of its user.” ― C.A.R. Hoare
 
 Technology is not an end in itself, but rather a means to an end. The end is that which your software (or even your hardware, your machine or your building) hopes to accomplish for its user. The user depends on you, and you in turn depend on the user, because in the final analysis it is the user who pays your salary. Putting technology before the user is no more sensible than putting medicine before the patient.
 
 ## What is engineering?
 
-    “First solve the problem. Then, write the code.” ― Waseem Latif
+> “First solve the problem. Then, write the code.” ― Waseem Latif
 
-    “Some of the best programming is done on paper, really. Putting it into the computer is just a minor detail.” ― Max Kanat-Alexander
+> “Some of the best programming is done on paper, really. Putting it into the computer is just a minor detail.” ― Max Kanat-Alexander
 
 What sets an engineer apart from a mechanic, a technician or a coder? They all build things, or at least, rebuild things. The difference is that the engineer builds it in his mind first. He is able to do so because he understands the principles underlying the the things he builds. He can predict how something behaves without having to build it first. And this is why design is the thing that sets an engineer apart from non-engineers. And it is also why an engineer must know the principles that govern his domain, for without it he cannot design. One does not become an engineer by googling for code, any more than one becomes a physician by googling for treatments.
 
@@ -32,7 +32,7 @@ Programming is the process of converting a requirement into one or more algorith
 
 ## What is code?
 
-    “Programs must be written for people to read, and only incidentally for machines to execute.” ― Harold Abelson
+> “Programs must be written for people to read, and only incidentally for machines to execute.” ― Harold Abelson
 
 Machines only require binary. Programming languages exist for human beings, and therefore code written in such languages must be produced with human comprehension in mind. Code that requires the presence of the author for explanation, has failed in its purpose.
 
