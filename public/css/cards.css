@@ -3,33 +3,31 @@ body {
   margin: auto;
   font-family: monospace;
   line-height: 150%;
-  font-size: 10pt;
+  font-size: 11pt;
+  padding: 40px;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 850px) {
   body {
-    width: 600px;
-    line-height: 150%;
-    font-size: 10pt;
+    width: 800px;
   }
 }
 
 h1 {
   font-size: 12pt;
-  font-weight: 100;
+  font-weight: bold;
   text-transform: uppercase;
-  text-decoration: underline;
   text-align: center;
   margin-bottom: 15pt;
   margin-top: 15pt;
 }
 
 h2 {
-  font-size: 10pt;
-  font-weight: 100;
-  text-transform: uppercase;
+  font-size: 11pt;
+  font-weight: bold;
   margin-bottom: 15pt;
-  margin-top: 15pt;
+  margin-top: 30pt;
+  margin-left: -25px;
 }
 
 li {
@@ -41,4 +39,8 @@ pre {
   border-style: dashed;
   border-width: 1px;
   font-size: 9pt;
+}
+
+blockquote {
+  color: #888888;
 }
