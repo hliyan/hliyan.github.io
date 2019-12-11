@@ -1,9 +1,7 @@
 body {
   width: 90%;
   margin: auto;
-  font-family: monospace;
   line-height: 150%;
-  font-size: 11pt;
   padding: 40px;
 }
 
@@ -14,16 +12,12 @@ body {
 }
 
 h1 {
-  font-size: 12pt;
-  font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 15pt;
   margin-top: 15pt;
 }
 
 h2 {
-  font-size: 11pt;
   font-weight: bold;
   margin-bottom: 15pt;
   margin-top: 30pt;
@@ -36,9 +30,7 @@ li {
 
 pre {
   padding: 10pt;
-  border-style: dashed;
-  border-width: 1px;
-  font-size: 9pt;
+  background-color: #efefef;
 }
 
 blockquote {
