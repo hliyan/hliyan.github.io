@@ -26,3 +26,5 @@ description: 'Personal blog of H. N. Liyanage'
 url: http://hliyan.github.io
 
 
+
+theme: jekyll-theme-cayman
