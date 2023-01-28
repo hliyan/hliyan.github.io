@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I finally understood Bitcoin
+title: A Layman's Introduction to Cryptocurrencies
 date: 2013-11-28 17:00:00
 ---
 
